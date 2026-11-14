@@ -5,13 +5,16 @@
 // Each function needs one call to each helper.
 
 function showSearching() {
-  // TODO Task 1: show "Searching: show the target picture." and hide the fan.
+  setMessage('Searching: show the target picture.');
+  setExhibitVisible(false);
 }
 
 function onTargetFound() {
-  // TODO Task 2: show "Target found." and show the fan.
+  setMessage('Target found.');
+  setExhibitVisible(true);
 }
 
 function onTargetLost() {
-  // TODO Task 3: show "Target lost: show the picture again." and hide the fan.
+  setMessage('Target lost: show the picture again.');
+  setExhibitVisible(false);
 }
