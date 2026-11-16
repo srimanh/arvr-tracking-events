@@ -1,5 +1,11 @@
 # Tracking Event Handlers — LU 2.8
 
+## Live demo
+
+[Open the working assignment](https://srimanh.github.io/arvr-tracking-events/)
+
+Runs in a desktop browser. No cloning or local server required.
+
 A supplied simulator displays a fan on a stand. Its three state functions are incomplete. Fix only `student.js`; no scene construction is required.
 
 **Simulation only:** the buttons emit JavaScript `targetFound` and `targetLost` events. They do not use a camera or recognise an image. Real tracking integration is outside this assignment.
